@@ -1,5 +1,9 @@
 ### Hi there 👋
 <a href="https://velog.io/@asbazq" target="_blank"><img src="https://img.shields.io/badge/Velog-20C997?style=flat-square&logo=Velog&logoColor=white"/></a>
+<a href="https://www.notion.so/206f4991cf2380d1aed4e7fae12cd031" target="_blank">
+  <img src="https://img.shields.io/badge/Notion-000000?style=flat-square&logo=notion&logoColor=white"/>
+</a>
+
 
 <!--
 **asbazq/asbazq** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
