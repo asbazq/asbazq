@@ -4,7 +4,7 @@
 
 <p align="center">
   <strong>만들고, 관찰하고, 더 나은 구조로 개선합니다.</strong><br />
-  Java · Spring 기반으로 서비스를 만들고, 사용 중 만난 문제를 코드와 설계로 풀어갑니다.
+  Java · Spring 기반의 백엔드와 Python 기반의 AI를 다루며, 서비스 구현부터 검색·예측까지 연결합니다.
 </p>
 
 <p align="center">
@@ -15,7 +15,7 @@
 
 <br />
 
-## 01 / Selected work
+## 01 / Backend
 
 ### [YuGiOhDeck ↗](https://github.com/asbazq/YuGiOhDeck)
 **카드 검색부터 덱 구성·공유, AI 카드 판별까지.**
@@ -35,31 +35,47 @@ Redis Sorted Set과 Lua Script로 입장·승급을 원자적으로 처리합니
 
 ---
 
-### [RoutineHub ↗](https://github.com/asbazq/myproteinPrice)
-**가격 기록을 모아, 구매 판단에 도움이 되는 화면으로.**
+<br />
 
-마이프로틴 가격을 수집·저장하고, ARIMA/ARX 기반 예측 결과를 React 대시보드로 보여주는 서비스입니다.
+## 02 / AI
 
-`Spring Boot` `Selenium` `MySQL` `React` `Recharts`
+### [youtube-semantic-search ↗](https://github.com/asbazq/youtube-semantic-search)
+**질문에서 관련 자막으로, 자막에서 정확한 영상 시점으로.**
+
+YouTube 자막을 의미 단위로 나누고 다국어 임베딩과 ChromaDB로 검색합니다. 로컬 Ollama 기반 RAG 챗봇은 검색된 자막 원문과 영상 시점 링크를 제공하며, 인용 구절을 서버에서 검증합니다.
+
+`Python` `SentenceTransformers` `ChromaDB` `Ollama` `FastAPI` `Vue`
+
+---
+
+### [skala-min_project ↗](https://github.com/asbazq/skala-min_project)
+**배터리 초기 데이터에서 수명 예측까지, 선택의 근거와 한계를 함께.**
+
+초기 100사이클 데이터로 ESS 배터리의 전체 사이클 수명을 예측합니다. EDA와 특징 비교를 거쳐 RBF SVR을 선택하고, 프로토콜 그룹 기반 검증과 배치 간 평가로 일반화 성능을 분석했습니다.
+
+`Python` `pandas` `NumPy` `scikit-learn` `SVR`
 
 <br />
 
-## 02 / Engineering focus
+## 03 / Engineering focus
 
 | 관심사 | 프로젝트에서 다룬 내용 |
 | :--- | :--- |
 | **트래픽과 동시성** | Redis 대기열 · Lua 원자 연산 · 입장 인원 제어 |
 | **서비스와 데이터** | Spring API · MySQL 검색 · 수집 프로세스 분리 |
 | **실시간 사용자 경험** | WebSocket 상태 전달 · 재연결과 세션 수명 관리 |
+| **AI 검색과 근거 검증** | 자막 청킹 · 다국어 임베딩 · 벡터 검색 · RAG 인용 검증 |
+| **ML 실험과 평가** | EDA · 특징 비교 · 그룹 기반 검증 · 배치 간 오류 분석 |
 | **관찰과 개선** | 부하 테스트 · 응답 흐름 분석 · 기술 선택과 트러블슈팅 기록 |
 
 <br />
 
-## 03 / Toolbox
+## 04 / Toolbox
 
 **Backend** &nbsp; Java · Spring Boot · Spring Data JPA  
 **Data & Messaging** &nbsp; MySQL · Redis · WebSocket  
-**Frontend** &nbsp; React · JavaScript  
+**AI & ML** &nbsp; Python · SentenceTransformers · ChromaDB · Ollama · scikit-learn · pandas · NumPy  
+**Frontend** &nbsp; React · Vue · JavaScript  
 **Infra & Collection** &nbsp; Docker Compose · AWS EC2 / RDS · Selenium · Jsoup
 
 <br />
