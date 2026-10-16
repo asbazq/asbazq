@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="400" viewBox="0 0 1280 400" role="img" aria-labelledby="title desc">
+<title id="title">asbazq — Build. Observe. Improve.</title>
+<desc id="desc">Dark navy banner with mint typography and a geometric service architecture motif.</desc>
+<defs>
+<linearGradient id="bg" x2="1" y2="1"><stop stop-color="#0B1220"/><stop offset="1" stop-color="#14283A"/></linearGradient>
+<pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M40 0H0V40" fill="none" stroke="#B3EADD" stroke-opacity=".06"/></pattern>
+</defs>
+<rect width="1280" height="400" rx="24" fill="url(#bg)"/>
+<rect width="1280" height="400" rx="24" fill="url(#grid)"/>
+<path d="M0 0H1280" stroke="#6EE7C7" stroke-width="6"/>
+<g font-family="'Segoe UI',Arial,sans-serif">
+<text x="64" y="70" fill="#6EE7C7" font-size="15" letter-spacing="5">ASBAZQ / ENGINEERING NOTES</text>
+<text x="60" y="164" fill="#F1F5F9" font-size="76" font-weight="750" letter-spacing="-3">Build. Observe.</text>
+<text x="60" y="249" fill="#6EE7C7" font-size="76" font-weight="750" letter-spacing="-3">Improve.</text>
+<text x="64" y="302" fill="#A8BBCB" font-size="21">From an idea to a service. From a problem to a better system.</text>
+<text x="64" y="359" fill="#89A2B6" font-size="13" letter-spacing="3">JAVA / SPRING BOOT / REDIS / REACT</text>
+</g>
+<g fill="none" stroke="#6EE7C7" stroke-width="2">
+<path d="M976 118V80H1152V170H1098M976 170V286H1152V222" opacity=".35"/>
+<rect x="902" y="118" width="148" height="58" rx="12" fill="#142C39"/>
+<rect x="1098" y="170" width="118" height="58" rx="12" fill="#142C39"/>
+<rect x="902" y="258" width="148" height="58" rx="12" fill="#142C39"/>
+<circle cx="1152" cy="80" r="5" fill="#6EE7C7"/>
+</g>
+<g font-family="'Segoe UI',Arial,sans-serif" font-size="14" fill="#D7EEE9" text-anchor="middle" letter-spacing="2">
+<text x="976" y="153">SERVICE</text><text x="1157" y="205">QUEUE</text><text x="976" y="293">FEEDBACK</text>
+</g>
+</svg>
